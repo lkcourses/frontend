@@ -1,0 +1,9 @@
+.addProduct {
+    display: grid;
+    overflow: hidden;
+    justify-content: center;
+    grid-auto-columns: 400px;
+    width:100%;
+    background-color: rgb(251, 238, 247);
+    height: 100vh;
+}

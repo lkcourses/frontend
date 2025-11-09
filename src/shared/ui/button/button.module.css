@@ -1,0 +1,18 @@
+.defButton{
+    background: linear-gradient(90deg,  #e437adff, rgb(180, 72, 223));
+    border: none;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 0px;
+    border-radius: 9px;
+    color: white;
+    height: 42px;
+    width: 100%;
+    cursor: pointer;
+    transition: all .4s ease;
+
+    &:hover {
+        transform: scale(1.02);
+        background: linear-gradient(90deg,  rgb(208, 50, 158), rgb(174, 46, 185));;
+    }
+}

@@ -1,0 +1,59 @@
+.cntLogo {
+    width: 100%;
+    display: grid;
+    
+    justify-content: center;
+    margin-top: -30%;
+    margin-bottom: 20px;
+}
+
+.cntLogo > h1 {
+    font-size: 25px;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    color: rgb(180, 63, 190);
+    font-weight: bolder;
+}
+
+.logo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, rgb(180, 72, 223), #e437adff);
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.formSignIn{
+    width: 100%;
+    margin-top: 30%;
+    margin-bottom: 40px;
+    height: 500px;
+    background-color: white;
+    border-radius:10px;
+    display: grid;
+    grid-auto-columns: 80%;
+    grid-auto-rows: 35px;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0px 8px 14px 1px rgb(236, 226, 234);
+}
+
+
+.InputDiscription {
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 96%;
+    height: 35px;
+    z-index: 2;
+    color: rgb(19, 19, 19);
+    border: 1.4px solid rgb(204, 204, 204);
+    border-radius: 9px;
+    padding-left: 12px;
+}
+
+
+
